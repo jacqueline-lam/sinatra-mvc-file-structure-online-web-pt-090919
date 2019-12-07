@@ -7,35 +7,35 @@ describe ApplicationController do
       expect(Dog.all.count).to eq (1)
     end
 
-    it 'can read dog name' do
-      @dog = Dog.new("rudolph", "mastiff", 2)
-      expect(@dog.name).to eq("rudolph")
-    end
+    # it 'can read dog name' do
+    #   @dog = Dog.new("rudolph", "mastiff", 2)
+    #   expect(@dog.name).to eq("rudolph")
+    # end
 
-    it 'can read dog breed' do
-      @dog = Dog.new("rudolph", "mastiff", 2)
-      expect(@dog.breed).to eq("mastiff")
-    end
+    # it 'can read dog breed' do
+    #   @dog = Dog.new("rudolph", "mastiff", 2)
+    #   expect(@dog.breed).to eq("mastiff")
+    # end
 
-    it 'can read dog age' do
-      @dog = Dog.new("rudolph", "mastiff", 2)
-      expect(@dog.age).to eq(2)
-    end
-    it 'can change dog name' do
-      @dog = Dog.new("rudolph", "mastiff", 2)
-      @dog.name = "bessie"
-      expect(@dog.name).to eq("bessie")
-    end
-    it 'can change dog breed' do
-      @dog = Dog.new("rudolph", "mastiff", 2)
-      @dog.breed = "beagle"
-      expect(@dog.breed).to eq("beagle")
-    end
-    it 'can change dog age' do
-      @dog = Dog.new("rudolph", "mastiff", 2)
-      @dog.age = 4
-      expect(@dog.age).to eq(4)
-    end
+    # it 'can read dog age' do
+    #   @dog = Dog.new("rudolph", "mastiff", 2)
+    #   expect(@dog.age).to eq(2)
+    # end
+    # it 'can change dog name' do
+    #   @dog = Dog.new("rudolph", "mastiff", 2)
+    #   @dog.name = "bessie"
+    #   expect(@dog.name).to eq("bessie")
+    # end
+    # it 'can change dog breed' do
+    #   @dog = Dog.new("rudolph", "mastiff", 2)
+    #   @dog.breed = "beagle"
+    #   expect(@dog.breed).to eq("beagle")
+    # end
+    # it 'can change dog age' do
+    #   @dog = Dog.new("rudolph", "mastiff", 2)
+    #   @dog.age = 4
+    #   expect(@dog.age).to eq(4)
+    # end
 
   end
 
